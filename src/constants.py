@@ -10,3 +10,5 @@ internal_character_ids = {
 stage_ids ={
 
 }
+
+## Okay I fixed it -- Domm

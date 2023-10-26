@@ -46,7 +46,7 @@ class GameInfo(Base):
 
     metadata_relationship = relationship("Metadata", back_populates="game_info")
     
-    
+    ## Ooh boy little tricky but I think I got it figured out now -- Domm
 
 class MatchInfo(Base):
     __tablename__ = 'match_info'

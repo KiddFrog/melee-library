@@ -10,6 +10,8 @@ from sqlalchemy.orm import sessionmaker
 from database_info import database
 from models import Metadata, GameInfo, MatchInfo, PlayersInfo, Settings, HigherPortPlayerPostFrames, LowerPortPlayerPostFrames, HigherPortPlayerPreFrames, LowerPortPlayerPreFrames
 
+## This was a little tricky but I fixed it -- Domm
+
 def main():
     pd.set_option('display.max_colwidth', None)
     pd.set_option('display.width', 1000)

@@ -7,3 +7,5 @@ engine = create_engine(database)
 
 # Drop all tables associated with the Base metadata
 Base.metadata.drop_all(engine)
+
+## Okay I fixed it -- Domm
